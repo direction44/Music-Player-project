@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background:url(/assests/musicbg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.music_box{
+    width: 500px;
+    height: 650px;
+    background: radial-gradient(circle at 74.2% 50.9%,rgb(14,72,222)5.2%,rgb(3,22,65)75.3%);
+    padding: 25px 35px;
+    text-align: center;
+    border-radius: 8px;
+}
+nav{
+    color: rgb(14,72,222);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+nav #circle{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    line-height: 45px;
+    font-size: 25px;
+}
+.top-heading{
+    font-size: 25px;
+    color: white;
+}
+.music-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: white 10px solid;
+}
