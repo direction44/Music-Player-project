@@ -17,18 +17,19 @@
                 <i class="fa-solid fa-plus" id="circle"></i>
             </nav>
             <img src="./assests/song.png" alt="" class="music-img">
-            <h4>Chill With Me</h4>
-            <h2>Ft. Tube Backr</h2>
-            <audio src="./audio/chill-with-me.mpeg">
+            <h4 class="chill-text">Chill With Me</h4>
+            <h2 class="chill-text ft-text">Ft. Tube Backr</h2>
+            <audio src="./audio/chill-with-me.mpeg" id="music_audio">
                 <source type="/audio/mpeg">
             </audio>
-            <input type="range">
-            <div>
-                <i class="fa-solid fa-backward"></i>
-                <i class="fa-solid fa-play"></i>
-                <i class="fa-solid fa-forward"></i>
+            <input type="range" id="progress">
+            <div class="controls">
+                <i class="fa-solid fa-backward bottom-circle"></i>
+                <i class="fa-solid fa-play bottom-circle" id="playpause"></i>
+                <i class="fa-solid fa-forward bottom-circle"></i>
             </div>
         </div>
     </div>
+    <script src="./app.js"></script>
 </body>
 </html>
